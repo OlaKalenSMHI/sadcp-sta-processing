@@ -9,6 +9,16 @@ using VmDas.
 The notebook is intended to be easy to use without requiring Python
 programming experience.
 
+### Long version
+
+[![Open Long Version in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olakal/sadcp-sta-processing/blob/main/SADCP_STAprocc_long_colab.ipynb) 
+(download STA file/s first)
+
+`SADCP_STAprocc_long_colab.ipynb`
+
+Detailed version intended for learning and QC inspection. Shows the
+individual QC steps and additional diagnostic plots.
+
 ## Supported instruments
 
 The current version supports:
