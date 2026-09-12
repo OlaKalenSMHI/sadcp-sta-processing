@@ -22,7 +22,7 @@ No local Python installation is required.
 
 1. Go to https://colab.research.google.com/
 2. Select **Upload notebook**.
-3. Upload `SADCP_STAprocc_short_colab_v3.ipynb`.
+3. Upload `SADCP_STAprocc_colab.ipynb`.
 4. Follow the instructions in the notebook and run the cells from top to bottom.
 5. When requested, upload one `.STA` file.
 6. Download the processed results at the end of the notebook.
