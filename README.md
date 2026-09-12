@@ -2,6 +2,8 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olakal/sadcp-sta-processing/blob/main/SADCP_STAprocc_colab.ipynb) (download STA file/s first)
 
+`SADCP_STAprocc_colab.ipynb`
+
 A simple Google Colab workflow for reading, quality controlling, visualizing,
 and exporting shipboard ADCP data collected with Teledyne RDI instruments
 using VmDas.
