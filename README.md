@@ -1,6 +1,6 @@
 # Shipboard ADCP STA processing
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olakal/sadcp-sta-processing/blob/main/SADCP_STAprocc_colab.ipynb) (download STA file/s first)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olakal/sadcp-sta-processing/blob/main/SADCP_STAprocc_colab.ipynb) 
 
 `SADCP_STAprocc_colab.ipynb`
 
@@ -14,7 +14,6 @@ programming experience.
 ### Long version
 
 [![Open Long Version in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olakal/sadcp-sta-processing/blob/main/SADCP_STAprocc_long_colab.ipynb) 
-(download STA file/s first)
 
 `SADCP_STAprocc_long_colab.ipynb`
 
