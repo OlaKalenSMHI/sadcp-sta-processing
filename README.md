@@ -24,8 +24,8 @@ individual QC steps and additional diagnostic plots.
 
 The current version supports:
 
-- Teledyne RDI WorkHorse 600 kHz (WH600)
-- Teledyne RDI Ocean Surveyor 150 kHz (OS150)
+- Teledyne RDI WorkHorse 
+- Teledyne RDI Ocean Surveyor 
 
 Input data are VmDas Short Term Average (`.STA`) files. These files contain time-averaged ADCP measurements, including current velocity and direction at multiple depth bins, together with supporting information such as time, position, depth, and instrument data.
 
