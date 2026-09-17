@@ -95,5 +95,6 @@ measurement conditions before using the processed data for analysis.
 
 ## Contact
 
+ola.kalen@smhi.se
 Swedish Meteorological and Hydrological Institute (SMHI)  
 Swedish National Oceanographic Data Centre (NODC Sweden)
