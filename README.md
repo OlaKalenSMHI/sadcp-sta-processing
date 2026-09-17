@@ -1,8 +1,8 @@
 # Shipboard ADCP STA processing
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olakal/sadcp-sta-processing/blob/main/SADCP_STAprocc_colab.ipynb) 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OlaKalenSMHI/sadcp-sta-processing/blob/main/SADCP_STAprocc_colab_v3.ipynb) 
 
-`SADCP_STAprocc_colab.ipynb`
+`SADCP_STAprocc_colab_v3.ipynb`
 
 A simple Google Colab workflow for reading, quality controlling, visualizing,
 and exporting shipboard ADCP data collected with Teledyne RDI instruments
@@ -13,9 +13,9 @@ programming experience.
 
 ### Long version
 
-[![Open Long Version in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/olakal/sadcp-sta-processing/blob/main/SADCP_STAprocc_long_colab.ipynb) 
+[![Open Long Version in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OlaKalenSMHI/sadcp-sta-processing/blob/main/SADCP_STAprocc_long_colab_v3.ipynb) 
 
-`SADCP_STAprocc_long_colab.ipynb`
+`SADCP_STAprocc_long_colab_v3.ipynb`
 
 Detailed version intended for learning and QC inspection. Shows the
 individual QC steps and additional diagnostic plots.
@@ -35,7 +35,7 @@ No local Python installation is required.
 
 1. Go to https://colab.research.google.com/
 2. Select **Upload notebook**.
-3. Upload `SADCP_STAprocc_colab.ipynb`.
+3. Upload `SADCP_STAprocc_colab_v3.ipynb`.
 4. Follow the instructions in the notebook and run the cells from top to bottom.
 5. When requested, upload one `.STA` file.
 6. Download the processed results at the end of the notebook.
@@ -52,7 +52,7 @@ The notebook applies basic automatic quality control based on:
 - bottom-track depth
 - sidelobe interference near the bottom
 
-Instrument-specific settings are used for the WH600 and OS150.
+The instrument family and nominal frequency are detected automatically from the STA file. Instrument-family-specific QC settings are then applied for WorkHorse and Ocean Surveyor data.
 
 The automatic QC is intended as a first-level screening. The resulting
 figures should always be visually inspected.
@@ -74,8 +74,8 @@ output.
 
 Two example `.STA` files are included:
 
-- one WH600 example
-- one OS150 example
+- one WorkHorse example
+- one Ocean Surveyor example
 
 These can be used to test the notebook before processing other data.
 
